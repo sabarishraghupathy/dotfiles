@@ -49,6 +49,12 @@ brew cask install mplayerx handbrake mixxx igetter
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql webpquicklook suspicious-package asepsis
 ```
 
+###iTerm
+```
+https://www.iterm2.com/downloads.html
+```
+
+
 ### Shell
 
 I prefer [Oh my zsh](https://github.com/robbyrussell/oh-my-zsh)
