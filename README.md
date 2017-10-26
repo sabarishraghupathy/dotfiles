@@ -11,33 +11,34 @@ These are dot-files and basic configs of my development machine(Mac) envoronment
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-##### Brews
+##### Brew Pacakges
 ```
-brew install git autojump graphicsmagick archey
-brew install htop nmap mtr wget
-brew install node terminal-notifier tmux tree zsh
+brew install git autojump
+brew install wget
+brew install node tree zsh
 ```
 
 ##### [HomeBrew Cask](http://caskroom.io/)
+##### Installed in /usr/local/Cellar
 ```
-brew install caskroom/cask/brew-cask
+brew install caskroom/cask/brew-cask ?
 brew tap caskroom/versions
 ```
 
-##### Cask
+##### Cask Packages
+##### Installed in /usr/local/Caskroom
 ```
 #Communication
-brew cask install adium skype nally limechat linkinus joinme
+brew cask install skype
 
 #System administration
-brew cask install coconutbattery alfred appcleaner ccleaner chromecast spectacle namechanger omnidisksweeper archey
+brew cask install alfred appcleaner ccleaner spectacle namechanger omnidisksweeper
 
-brew cask install satellite-eyes
 #Development
-brew cask paw brackets mou iterm2
+brew install cask mou iterm2
 
 #Network
-brew cask install cyberduck  charles cheatsheet imageoptim gas-mask firefox
+brew cask install cyberduck charles cheatsheet imageoptim gas-mask firefox
 
 #Database Realated
 brew cask install robomongo sequel-pro rdm diffmerge
